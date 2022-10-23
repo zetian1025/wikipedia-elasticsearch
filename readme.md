@@ -6,7 +6,7 @@ You can download and install elasticsearch from [here](https://www.elastic.co/do
 ### Download wikipedia
 Wiki dump for [English](https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2) and for [Chinese](https://dumps.wikimedia.org/zhwiki/latest/enwiki-latest-pages-articles.xml.bz2) is offered here. Dumps for another language/ another wiki database should be similar.
 
-After a wiki dump is downloaded, moving it into the `wiki_dump` folder under this project (create one in case you can't find it).
+After a wiki dump downloaded, moving it into the `wiki_dump` folder under this project (create one in case you can't find it).
 
 ### Extract wiki text
 [wikiextractor](https://github.com/attardi/wikiextractor) is used here to extract wiki text.

@@ -2,7 +2,11 @@
 This is a brief tutorial to inform you how to build a search engine for wikipedia using ElasticSearch.
 
 ### Install ElasticSearch
-You can download and install elasticsearch from [here](https://www.elastic.co/downloads/elasticsearch). ElasticSearch 7.17.4 is used here.
+You can download and install elasticsearch from [here](https://www.elastic.co/downloads/elasticsearch). ElasticSearch 7.17 is used here.
+Some plugins are also needed for this project:
+- [analysis-icu](https://www.elastic.co/guide/en/elasticsearch/plugins/7.17/analysis-icu.html) (for any language)
+- [analysis-stconvert](https://github.com/medcl/elasticsearch-analysis-stconvert) (for Chinese)
+
 ### Download wikipedia
 Wiki dump for [English](https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2) and for [Chinese](https://dumps.wikimedia.org/zhwiki/latest/enwiki-latest-pages-articles.xml.bz2) is offered here. Dumps for another language/ another wiki database should be similar.
 
